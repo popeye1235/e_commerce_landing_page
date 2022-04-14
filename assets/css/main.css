@@ -1,0 +1,181 @@
+.custom-container {
+    max-width: 1252px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-container hr {
+    height: 2px;
+    width: 55px;
+    align-self: center;
+    color: #fff;
+    background: #fff;
+    margin: 10px 0 0 0 !important;
+}
+
+
+.wrapper-bgcolor {
+    background-color: white !important;
+}
+
+header {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    padding-top: 10px !important;
+    margin-top: auto !important;
+}
+
+.main-menu#menu{
+    left: 5%;
+}
+
+.main-menu>ul>li span>a {
+    color: black !important;
+}
+
+.card {
+    flex-direction: row;
+    align-items: stretch;
+    display: flex;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 12px !important;
+}
+
+
+.card>div {
+    position: relative;
+    transition: .2s;
+    width: 407px;
+}
+
+.card>div:hover {
+    transition: all .2s ease;
+}
+
+.img-changes-custom-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.hero_single-custom-css {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    color: #fff;
+}
+
+.subcat-di{
+    display: none!important;
+}
+
+.sliding-card > div:hover > .subcat-di{
+    display: block!important;
+}
+
+.sliding-card .card-1 {
+    width: 50%;
+    z-index: 3;
+}
+
+.sliding-card .card-2 {
+    width: 25%;
+    z-index: 2;
+}
+
+.sliding-card .card-3 {
+    width: 25%;
+    z-index: 1;
+}
+
+.head-over-img {
+    position: absolute !important;
+    z-index: 1 !important;
+    margin: 15px 20px 10px 40px !important;
+    top: 4% !important;
+    color: black !important;
+}
+
+.butt-cuss {
+    border-radius: 16px !important;
+    padding: 6px !important;
+    border: 2px solid white !important;
+}
+
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 23px;
+}
+
+
+.sliding-card {
+    height: 400px;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    color: #fff;
+}
+
+
+::-webkit-input-placeholder {
+    text-align: right;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: right;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: right;
+}
+
+:-ms-input-placeholder {
+    text-align: right;
+}
+
+h4.home_cat_title {
+    margin-top: 100px;
+    color: #000 !important;
+    font-size: 40px;
+    text-align: left;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.main-menu > ul > li span > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header.header {
+    padding: 0 20px !important;
+}

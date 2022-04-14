@@ -1,0 +1,9 @@
+Ibrat Innovations assignment Internshala
+
+this is a demo website as per your requirement using html, css, bootstrap and jquery
+as per your instruction the demo video also added in this folder
+
+
+instruction to run this assignment:
+
+run this index.html file from VS code using live server or any other application server 
